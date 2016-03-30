@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="app_name">Yuva Parivartan</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <color name="app_color">#248f24</color>
+
+    <color name="app_color1">#155115</color>
+
+
+    <string name="step1">Step 1 - Enter farmer enrollment details</string>
+    <string name="step2">Step 2 - Farm geofencing. Capture farm coordinates and multimedia details.</string>
+    <string name="step3">Step 3 - Capture coordinates and multimedia from center of farm.</string>
+    <string name="step4">Step 4 - Ask risk profiling questions</string>
+    <string name="step5">Step 5 - Generate risk score and submit data</string>
+    <!--<string name="step6">Step 6 - Transfer data from mobile app to web</string>-->
+    <string name="step6">Step 6 - Score</string>
+
+
+
+    <!--local-->
+    <!--<string name="bas_url">http://192.168.1.156/YuvaParivartan3/web/index.php?r=</string>-->
+
+    <!--live-->
+    <!--<string name="bas_url">http://188.166.242.137/YuvaParivartan/web/index.php?r=</string>-->
+
+    <!--testweb-->
+    <!--<string name="bas_url">http://188.166.242.137/YuvaParivartan/web/index.php?r=</string>-->
+    <!--<string name="bas_url">http://188.166.242.137/YuvaParivartan/web/index.php?r=</string>-->
+    <!--<string name="bas_url">http://188.166.242.137/YuvaParivartan/web/index.php?r=</string>-->
+    <string name="bas_url">http://188.166.242.137/YuvaParivartan-live/web/index.php?r=</string>
+
+
+    <color name="app_dark">#248f24</color>
+    <color name="app_light">#248f24</color>
+    <color name="app_darkest">#248f24</color>
+
+
+
+    <string name="from_dropdown">from_dropdown</string>
+
+    <string-array name="camp_status">
+        <item></item>
+        <item>Started</item>
+        <item>Ongoing</item>
+        <item>Completed</item>
+    </string-array>
+
+
+    <string-array name="meet_key_person_role">
+        <item>Sarpanch</item>
+        <item>Key Person</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="camp_introduction_provided">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="variety">
+        <item>Dilkush</item>
+        <item>Bangalore Blue</item>
+        <item>Sonaka</item>
+        <item>Krishna</item>
+        <item>Sharad Seedless</item>
+        <item>Anabshahi</item>
+        <item>Flame</item>
+        <item>Redglobe</item>
+    </string-array>
+
+
+    <string-array name="district_name">
+        <item>Chikkaballapur</item>
+        <item>Kolar</item>
+    </string-array>
+
+    <string-array name="hoblic">
+        <item>Nandi</item>
+        <item>Jangamkote</item>
+    </string-array>
+
+    <string-array name="hoblik">
+        <item>Mulbagal</item>
+        <item>Chintamani</item>
+    </string-array>
+
+
+    <string-array name="hoblick">
+        <item>Nandi</item>
+        <item>Jangamkote</item>
+        <item>Mulbagal</item>
+        <item>Chintamani</item>
+    </string-array>
+
+    <color name="gray1">#CCCCCC</color>
+
+
+
+</resources>

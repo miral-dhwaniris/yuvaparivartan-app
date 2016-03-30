@@ -1,0 +1,188 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cisc2.com.cisc2.HomePageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/userinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/golden_color"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/username_fillform"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:text="Dashboard"
+                android:textSize="@dimen/textsize2"
+                android:textColor="#ffffff" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:background="#ffffff" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userinfo"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/history_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userinfo"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_back"
+                android:gravity="center"
+                android:padding="@dimen/padding1"
+                android:text="History"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textsize2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/camp_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userinfo"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_back"
+                android:gravity="center"
+                android:padding="@dimen/padding1"
+                android:text="Camp"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textsize2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/create_your_agenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userinfo"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_back"
+                android:gravity="center"
+                android:padding="@dimen/padding1"
+                android:text="Create Your Agenda"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textsize2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/all_activities_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userinfo"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_back"
+                android:gravity="center"
+                android:padding="@dimen/padding1"
+                android:text="All Activities"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textsize2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/today_activities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userinfo"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_back"
+                android:gravity="center"
+                android:padding="@dimen/padding1"
+                android:text="Today Activities"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textsize2"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/calendar_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userinfo"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_back"
+                android:gravity="center"
+                android:padding="@dimen/padding1"
+                android:text="Calendar"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textsize2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/push_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userinfo"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_back"
+                android:gravity="center"
+                android:padding="@dimen/padding1"
+                android:text="Push"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textsize2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pull_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userinfo"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_back"
+                android:gravity="center"
+                android:padding="@dimen/padding1"
+                android:text="Pull"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textsize2"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userinfo"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_back"
+                android:gravity="center"
+                android:padding="@dimen/padding1"
+                android:text="Logout"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/textsize2"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

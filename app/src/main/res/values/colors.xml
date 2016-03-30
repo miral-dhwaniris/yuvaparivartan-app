@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+    <color name="main_color">#00dd00</color>
+-->
+    <color name="main_color">#FBC041</color>
+    <color name="white">#fff</color>
+    <color name="selected_color_light">#ffdb4d</color>
+    <color name="selected_color_dark">#b38f00</color>
+    <color name="golden_color">#C94B26</color>
+    <color name="golden_color_light">#e28569</color>
+
+
+    <color name="colorAccent">#2b2c2b</color>
+
+    <color name="black">#000000</color>
+
+
+
+
+</resources>

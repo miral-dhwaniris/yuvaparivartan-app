@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimaryDark">@color/golden_color</item>
+        <item name="colorPrimary">@color/golden_color</item>
+
+
+
+
+
+    </style>
+
+
+    <style name="button_style1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_back</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textsize2</item>
+    </style>
+
+    <style name="calendar_button_style1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding1</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/calendar_button_back</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textsize2</item>
+    </style>
+
+
+
+
+</resources>
